@@ -22,7 +22,7 @@ Tested on Mac OS X.
 - Clone git repository. 
 
 ```bash
-git clone https://github.com/antonakv/tfe-vagrant-demo
+git clone https://github.com/antonakv/tfe-vagrant-online-pmd
 ```
 
 Expected command output looks like this:
@@ -343,59 +343,59 @@ To continue the installation, visit the following URL in your browser:
 
 - In your browser open URL https://192.168.56.33:8800/
 
-![Initial screen](https://github.com/antonakv/tfe-vagrant-demo/raw/main/images/tfe-i-vagrant-1.png)
+![Initial screen](https://github.com/antonakv/tfe-vagrant-online-pmd/raw/main/images/tfe-i-vagrant-1.png)
 
 - Click Advanced - Proceed to 192.168.56.33 (unsafe)
 
-![Proceed](https://github.com/antonakv/tfe-vagrant-demo/raw/main/images/tfe-i-vagrant-2.png)
+![Proceed](https://github.com/antonakv/tfe-vagrant-online-pmd/raw/main/images/tfe-i-vagrant-2.png)
 
 Expected result
 
-![Expected result](https://github.com/antonakv/tfe-vagrant-demo/raw/main/images/tfe-i-vagrant-3.png)
+![Expected result](https://github.com/antonakv/tfe-vagrant-online-pmd/raw/main/images/tfe-i-vagrant-3.png)
 
 - Enter `192.168.56.33.nip.io` to Hostname field and click `Use Self-Signed Cert`
 
-![Self signed](https://github.com/antonakv/tfe-vagrant-demo/raw/main/images/tfe-i-vagrant-4.png)
+![Self signed](https://github.com/antonakv/tfe-vagrant-online-pmd/raw/main/images/tfe-i-vagrant-4.png)
 
 - In your browser open URL https://192.168.56.33.nip.io:8800/
 
-![Upload certificate](https://github.com/antonakv/tfe-vagrant-demo/raw/main/images/tfe-i-vagrant-5.png)
+![Upload certificate](https://github.com/antonakv/tfe-vagrant-online-pmd/raw/main/images/tfe-i-vagrant-5.png)
 
 - Click `Choose license` and select your TFE license file. Then click `Open`
 
-![Upload license](https://github.com/antonakv/tfe-vagrant-demo/raw/main/images/tfe-i-vagrant-6.png)
+![Upload license](https://github.com/antonakv/tfe-vagrant-online-pmd/raw/main/images/tfe-i-vagrant-6.png)
 
 - Click `Online`
 
-![Online](https://github.com/antonakv/tfe-vagrant-demo/raw/main/images/tfe-i-vagrant-7.png)
+![Online](https://github.com/antonakv/tfe-vagrant-online-pmd/raw/main/images/tfe-i-vagrant-7.png)
 
 - Click `Continue`
 
-![Continue](https://github.com/antonakv/tfe-vagrant-demo/raw/main/images/tfe-i-vagrant-8.png)
+![Continue](https://github.com/antonakv/tfe-vagrant-online-pmd/raw/main/images/tfe-i-vagrant-8.png)
 
 - Enter password `Password1#` to Password and Confirm password fields. Click `Continue`
 
-![Password](https://github.com/antonakv/tfe-vagrant-demo/raw/main/images/tfe-i-vagrant-9.png)
+![Password](https://github.com/antonakv/tfe-vagrant-online-pmd/raw/main/images/tfe-i-vagrant-9.png)
 
 - On the next screen scroll down and click `Continue`
 
-![Proceed anyway](https://github.com/antonakv/tfe-vagrant-demo/raw/main/images/tfe-i-vagrant-10.png)
+![Proceed anyway](https://github.com/antonakv/tfe-vagrant-online-pmd/raw/main/images/tfe-i-vagrant-10.png)
 
 - On the Settings page set `Encryption password` as `Password1#` and select installation type `Production`. 
 
-![Encryption password](https://github.com/antonakv/tfe-vagrant-demo/raw/main/images/tfe-i-vagrant-12.png)
+![Encryption password](https://github.com/antonakv/tfe-vagrant-online-pmd/raw/main/images/tfe-i-vagrant-12.png)
 
 - Select Production type `Mounted disk` and fill `Path on Host` with `/mnt/disk`
 
-![Mounted disk](https://github.com/antonakv/tfe-vagrant-demo/raw/main/images/tfe-i-vagrant-17.png)
+![Mounted disk](https://github.com/antonakv/tfe-vagrant-online-pmd/raw/main/images/tfe-i-vagrant-17.png)
 
 - Go to the end of the page and click `Save`
 
-![Save](https://github.com/antonakv/tfe-vagrant-demo/raw/main/images/tfe-i-vagrant-13.png)
+![Save](https://github.com/antonakv/tfe-vagrant-online-pmd/raw/main/images/tfe-i-vagrant-13.png)
 
 - Click `Restart now`
 
-![Restart now](https://github.com/antonakv/tfe-vagrant-demo/raw/main/images/tfe-i-vagrant-14.png)
+![Restart now](https://github.com/antonakv/tfe-vagrant-online-pmd/raw/main/images/tfe-i-vagrant-14.png)
 
 ## Usage
 
