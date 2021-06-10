@@ -28,7 +28,7 @@ git clone https://github.com/antonakv/tfe-vagrant-online-pmd
 Expected command output looks like this:
 
 ```bash
-Cloning into 'tfe-vagrant-online-pmd'...
+Cloning into 'tfe-vagrant-demo'...
 remote: Enumerating objects: 12, done.
 remote: Counting objects: 100% (12/12), done.
 remote: Compressing objects: 100% (12/12), done.
@@ -37,14 +37,14 @@ Receiving objects: 100% (12/12), done.
 Resolving deltas: 100% (1/1), done.
 ```
 
-- Change folder to tfe-vagrant-online-pmd
+- Change folder to tfe-vagrant-demo
 
 ```bash
-cd tfe-vagrant-online-pmd
+cd tfe-vagrant-demo
 ```
 
 - Copy your existing Terraform enterprise license file with extension .rli to 
-folder tfe-vagrant-online-pmd created on the previous step and rename it to license.rli
+folder tfe-vagrant-demo created on the previous step and rename it to license.rli
 
 ## Installation
 
@@ -65,7 +65,7 @@ Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: A newer version of the box 'aakulov/bionic64' for provider 'virtualbox' is
 ==> default: available! You currently have version '21.03.02'. The latest is version
 ==> default: '21.05.27'. Run `vagrant box update` to update.
-==> default: Setting the name of the VM: tfe-vagrant-online-pmd_default_1622103422132_97669
+==> default: Setting the name of the VM: tfe-vagrant-demo_default_1622103422132_97669
 ==> default: Fixed port collision for 22 => 2222. Now on port 2200.
 ==> default: Clearing any previously set network interfaces...
 ==> default: Preparing network interfaces based on configuration...
@@ -91,7 +91,7 @@ Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: Setting hostname...
 ==> default: Configuring and enabling network interfaces...
 ==> default: Mounting shared folders...
-    default: /vagrant => /Users/aakulov/Documents/Development/Hashicorp/tfe-vagrant-online-pmd
+    default: /vagrant => /Users/aakulov/Documents/Development/Hashicorp/tfe-vagrant-demo
 
 ```
 
