@@ -115,44 +115,6 @@ Run 'do-release-upgrade' to upgrade to it.
 
 ```
 
-- Add Hashicorp key
-
-```bash
-curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
-```
-
-Sample output
-
-```bash
-$ curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
-OK
-```
-
-- Add Hashicorp repository
-
-```bash
-sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
-```
-
-Sample output
-
-```
-$ sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
-Get:1 http://mirrors.ubuntu.com/mirrors.txt Mirrorlist [973 B]                                 
-Get:5 https://apt.releases.hashicorp.com bionic InRelease [4,421 B]                                                        
-Get:6 https://apt.releases.hashicorp.com bionic/main amd64 Packages [24.6 kB]                  
-Get:4 http://mirror.dataone.nl/ubuntu-archive bionic-backports InRelease [74.6 kB]                                           
-Get:3 http://mirror.eu.kamatera.com/ubuntu bionic-updates InRelease [88.7 kB]                                                                
-Get:7 http://mirror.eu.kamatera.com/ubuntu bionic-updates/main amd64 Packages [2,070 kB]                                                                    
-Hit:2 http://mirror.hostnet.nl/ubuntu/archive bionic InRelease                                                           
-Get:8 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]                               
-Get:9 http://mirror.eu.kamatera.com/ubuntu bionic-updates/main i386 Packages [1,288 kB]        
-Get:10 http://mirror.eu.kamatera.com/ubuntu bionic-updates/universe amd64 Packages [1,735 kB]
-Get:11 http://mirror.eu.kamatera.com/ubuntu bionic-updates/universe i386 Packages [1,567 kB]
-Fetched 6,937 kB in 2s (4,404 kB/s)                          
-Reading package lists... Done
-```
-
 - Run the TFE installer
 
 ```bash
