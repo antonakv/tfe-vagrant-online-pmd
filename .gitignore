@@ -24,3 +24,4 @@ Gemfile.lock
 
 cert/
 tfe/
+tfe_install.log
